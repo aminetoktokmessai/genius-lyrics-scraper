@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 #copy songs from the genuis.com artist page and paste in a text file, enter
 #the name of the file in ".txt"
+#(you don't have to clean the view count lines)
 
 def replaceMultiple(mainString, toBeReplaces, newString):
     for elem in toBeReplaces :
